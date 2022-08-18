@@ -1,18 +1,49 @@
-# Mocking API's with Mirage.js
-## Available Scripts
+# Mocking API Requests with Mirage
 
-In the project directory, you can run:
+[![CircleCI](https://circleci.com/gh/mwaz/mocking-apis-with-mirage.svg?style=svg)](https://circleci.com/gh/mwaz/mocking-apis-with-mirage)
 
-### `npm start`
+<p align="center"><img src="https://avatars3.githubusercontent.com/u/59034516"></p>
 
-Runs the app in the development mode.\
+An application to mock HTTP requests with Mirage. 
+
+
+## 1. Clone repo
+
+```bash
+git clone https://github.com/mwaz/mocking-apis-with-mirage.git
+```
+## 2. Cd into cloned repository 
+```bash
+cd mocking-apis-with-mirage
+```
+
+## 3. Installl dependencies
+```bash
+npm install
+```
+## 4. Start provider
+
+```bash
+npm start
+
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 5. Run tests
 
-### `npm test`
+```bash
+npm test
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Details
 
+This repo is built following a tutorial published on CircleCI blog under the CircleCI Guest Writer Program.
+
+-   Blog post: [ Mocking API Requests with Mirage ][blog]
+-   Author's GitHub profile: [Waweru Mwaura][author]
+
+### About CircleCI Guest Writer Program
+
+[blog]: https://circleci.com/blog/mocking-apis-with-mirage
+[author]: https://github.com/mwaz
