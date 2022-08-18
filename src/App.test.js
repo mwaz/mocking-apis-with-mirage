@@ -34,10 +34,8 @@ test('Initial todos are displayed', async () => {
   server.create("todo", { name: "Grooming the cat" })
   render(<App />);
   await waitForElementToBeRemoved(() => screen.getByText("Loading..."))
-
   expect(screen.getByText("Grooming the cat")).toBeInTheDocument()
-
-})
+});
 
 test('Todo can be created', async () => {
   render(<App />);
@@ -46,4 +44,5 @@ test('Todo can be created', async () => {
   const postTodo = await screen.findByTestId("post-todo")
   userEvent.type(postTodo.querySelector("input[type=text]"), "Feed the cat")
   fireEvent.submit(screen.getByTestId("post-todo"))
-})
+});
+
